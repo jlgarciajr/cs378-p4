@@ -1,38 +1,57 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+  margin:0%;
+  padding: 0%;
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 100%;
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.body {
+  background-color: #282c34;
+}
+
+
+.container {
+  text-align: center;
+  max-width: 100%;
+  padding: 0 10px; 
+  background-color: #282c34; 
+}
+
+.banner {
+  background-color: #282c34;
   color: white;
+  padding: 0px 20px;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.banner h1,
+.banner h4 {
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row-2 {
+  display: flex; /* Use flexbox to display buttons in a row */
+  justify-content: center; /* Center align buttons horizontally */
+  margin-bottom: 20px; /* Add margin to separate from banner */
+}
+
+.row-2 button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: white;
+  cursor: pointer;
+  margin: 0 5px; /* Add margin between buttons */
+}
+
+p2 {
+  margin: 0%;
+  padding-bottom: 10px;
+  color: white;
 }
